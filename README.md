@@ -1,8 +1,18 @@
 # ripper-wrapper
+
+## Windows
+1. Поставити докер
+2. Закинути скрит по папки windows_ripper.ps1
+3. Відкрити консоль та зайту и папку зі скриптом
+4. Запустити скрипт 'powershell -ExecutionPolicy Bypass .\windows_ripper.ps1 -Action install -Number 10'
+5. Запуск без параметрів покаже довідку 'powershell -ExecutionPolicy Bypass .\windows_ripper.ps1'
+
+
+## MacOS
 1. Можна запускати без параметрів (для першого запуску) - автоматом ставить `runmode=install і amount=50`
 2. Додано параметр для конфігурування кількості контейнкрів - наприклад `/bin/bash os_x_ripper.sh -n 10`
 
-## Актуальні команди:
+### Актуальні команди:
 1. Перший запуск:  
    `/bin/bash os_x_ripper.sh -n 10`  
    число можна не ставити якщо потужна машина
@@ -14,3 +24,4 @@
    наприклад якщо треба подзвонити кудись з відео
 4. Продовження атаки:
    `/bin/bash os_x_ripper.sh -m start`
+
