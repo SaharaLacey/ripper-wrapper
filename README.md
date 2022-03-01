@@ -20,6 +20,8 @@ Scroll down for English instructions.
 
 ## Ukranian (Українська)
 
+Використовуйте VPN, налаштований на російські ІР, особливо якщо ви в Україні. З інших країн, ймовірно, без VPN буде працювати.
+
 Встановіть докер. Це інструмент для запуску програмного коду ізольовано від всього, що відбувається на вашому комп'ютері. Найпростіший спосіб - використовувва декстопну версію: https://www.docker.com/products/docker-desktop
 
 ### Windows
@@ -67,6 +69,8 @@ Scroll down for English instructions.
    Жыве Беларусь!
    
 ## English
+
+If you are in Ukraine, use a VPN with a Russian IP address. From other countries, it should be fine without a VPN.
 
 Install docker. It is a tool for running code in a manner isolated from your local computer environment. The easiest way to get started is to use the desktop version: https://www.docker.com/products/docker-desktop
 
