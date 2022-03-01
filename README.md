@@ -30,7 +30,7 @@ Scroll down for English instructions.
 
 ### MacOS
 0. Закачати скрипт `os_x_ripper.sh`
-1. Відкрийте Terminal (стандартна програма на Mac OS). В терміналі перейдіть до папки зі скриптом.
+1. Відкрийте Terminal. В терміналі перейдіть до папки зі скриптом.
 1. Перший запуск:  
    `os_x_ripper.sh -n 10`  
    Параметр `-n 10` задає число контейнерів. Число можна не ставити якщо потужна машина
@@ -68,26 +68,24 @@ Scroll down for English instructions.
    
 ## English
 
+Install docker. It is a tool for running code in a manner isolated from your local computer environment. The easiest way to get started is to use the desktop version: https://www.docker.com/products/docker-desktop
+
 ### Windows
-1. Install docker
-2. Get the script windows_ripper.ps1
-3. Open the command line and go to the folder with the script
-4. Run the script `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1 -Action install -Number 10`
-5. If you run it without any parameters you'll see a simple manual message `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1`
+0. Download the script`windows_ripper.ps1`
+1. Open command line and go to the folder with the downloaded script
+2. Run the script `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1 -Action install -Number 10`
+3. Run withour parameters to get short instructions `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1`
 
 ### MacOS
-1. Possible to launch without parametres (first launching): silent-executing with 'runmode=install` and `amount=50`
-2. You can set up amount of containers to work: `/bin/bash os_x_ripper.sh -n 10`, where n = number of containers
-
-### List of commands (for Mac version):
-1. First launch:  
-   `/bin/bash os_x_ripper.sh -n 10`  
-   you can skip setting the number of containers if you have a powerful computer
+0. Download the script `os_x_ripper.sh`
+1. Run the Terminal app. In the terminal, go to the folder with the script.
+2. First run:  
+   `os_x_ripper.sh -n 10`  
+   The parameter `-n 10` sets the number of containers. You can omit it if you have a powerful computer.
 2. Update the existing setup:  
-   `/bin/bash os_x_ripper.sh -m reinstall -n 10`  
-   You may change the number of containers too if you feel like the computer is significantly slowed down.
+   `os_x_ripper.sh -m reinstall -n 10`  
 3. Stop the attack:  
-   `/bin/bash os_x_ripper.sh -m stop`  
+   `os_x_ripper.sh -m stop`  
    For example, if you are low on bandwidth and need to make video call.
 4. Continue the attack:  
    `/bin/bash os_x_ripper.sh -m start`
