@@ -20,26 +20,25 @@ Scroll down for English instructions.
 
 ## Ukranian (Українська)
 
+Встановіть докер. Це інструмент для запуску програмного коду ізольовано від всього, що відбувається на вашому комп'ютері. Найпростіший спосіб - використовувва декстопну версію: https://www.docker.com/products/docker-desktop
+
 ### Windows
-1. Поставити докер
-2. Закинути скрит до папки windows_ripper.ps1
-3. Відкрити консоль та зайту и папку зі скриптом
-4. Запустити скрипт `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1 -Action install -Number 10`
-5. Запуск без параметрів покаже довідку `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1`
+0. Закачати скрипт `windows_ripper.ps1`
+1. Відкрити консоль та зайти до папки зі скриптом
+2. Запустити скрипт `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1 -Action install -Number 10`
+3. Запуск без параметрів покаже довідку `powershell -ExecutionPolicy Bypass .\windows_ripper.ps1`
 
 ### MacOS
-1. Можна запускати без параметрів (для першого запуску) - автоматом ставить `runmode=install і amount=50`
-2. Додано параметр для конфігурування кількості контейнкрів - наприклад `/bin/bash os_x_ripper.sh -n 10`
-
-### Актуальні команди:
+0. Закачати скрипт `os_x_ripper.sh`
+1. Відкрийте Terminal (стандартна програма на Mac OS). В терміналі перейдіть до папки зі скриптом.
 1. Перший запуск:  
-   `/bin/bash os_x_ripper.sh -n 10`  
-   число можна не ставити якщо потужна машина
+   `os_x_ripper.sh -n 10`  
+   Параметр `-n 10` задає число контейнерів. Число можна не ставити якщо потужна машина
 2. Апдейт існуючого:  
-   `/bin/bash os_x_ripper.sh -m reinstall -n 10`  
+   `os_x_ripper.sh -m reinstall -n 10`  
    теж можна міняти кількість контейнерів якщо відчуваєте що машина тупить
 3. Зупинка атаки:  
-   `/bin/bash os_x_ripper.sh -m stop`  
+   `os_x_ripper.sh -m stop`  
    наприклад якщо треба подзвонити кудись з відео
 4. Продовження атаки:  
    `/bin/bash os_x_ripper.sh -m start`
