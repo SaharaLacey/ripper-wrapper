@@ -1,5 +1,23 @@
 # ripper-wrapper
-Automation of DDoS attacks on propaganda and pro-Russian sources
+
+### Українською
+Це скрипт для автоматизації DDoS атак на російські веб ресурси.
+
+Скрипт обирає цілі для атаки на основі единої центральної конфігурації. Координація вибору цілей проводиться волонтерами відповідно до рекомендацій Міністерства Цифрової Трансформації України.
+
+Атака запускається в docker-контейнерах, ізольовано від вашого локального середовища.
+
+Дивіться подробиці використання нижче.
+
+### English
+This is a script for automation of DDoS attacks on Russian web resources.
+
+The script picks the attack targets from a centrally managed configuration. The targets are coordinated by volunteers with accordance to the requests of the Ukrainian Ministry of Digital Transformation.
+
+The attack runs in docker containers, isolating the executed code from your local environment.
+
+Scroll down for English instructions.
+
 ## Ukranian (Українська)
 
 ### Windows
